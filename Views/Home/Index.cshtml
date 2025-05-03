@@ -1,0 +1,95 @@
+﻿<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+        background: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: sans-serif;
+    }
+
+    #container {
+        position: relative;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .char {
+        position: absolute;
+    }
+</style>
+
+<div id="container"></div>
+
+@section scripts{
+
+    <script>
+        const text = "婷郁敲口愛！";
+        const container = document.getElementById('container');
+        const chars = [];
+        const velocities = [];
+
+        // 建立每個字元素
+        for (let i = 0; i < text.length; i++) {
+            const span = document.createElement('span');
+            span.className = 'char';
+            span.textContent = text[i];
+            container.appendChild(span);
+            chars.push(span);
+            velocities.push({
+                x: (Math.random() - 0.5) * 4, // -2 到 2
+                y: (Math.random() - 0.5) * 4
+            });
+        }
+
+        // 記錄原本位置
+        const originalPositions = [];
+
+        function arrangeChars() {
+            let left = window.innerWidth / 2 - container.offsetWidth / 2;
+            chars.forEach(char => {
+                char.style.left = `${left}px`;
+                char.style.top = `${window.innerHeight / 2}px`;
+                originalPositions.push({ left, top: window.innerHeight / 2 });
+                left += char.offsetWidth;
+            });
+        }
+
+        function moveChars() {
+            const w = window.innerWidth;
+            const h = window.innerHeight;
+            chars.forEach((char, i) => {
+                let x = parseFloat(char.style.left);
+                let y = parseFloat(char.style.top);
+
+                x += velocities[i].x;
+                y += velocities[i].y;
+
+                if (x <= 0 || x + char.offsetWidth >= w) velocities[i].x *= -1;
+                if (y <= 0 || y + char.offsetHeight >= h) velocities[i].y *= -1;
+
+                char.style.left = `${x}px`;
+                char.style.top = `${y}px`;
+            });
+        }
+
+        // 初始化並啟動
+        window.onload = () => {
+            arrangeChars();
+            setTimeout(() => {
+                // 每 16ms 更新位置（大約每秒 60 次）
+                const interval = setInterval(moveChars, 16);
+                // 5 秒後停止動畫，回到原位
+                setTimeout(() => {
+                    clearInterval(interval);
+                    chars.forEach((char, i) => {
+                        char.style.left = `${originalPositions[i].left}px`;
+                        char.style.top = `${originalPositions[i].top}px`;
+                    });
+                }, 5000);
+            }, 500);
+        };
+    </script>
+}
