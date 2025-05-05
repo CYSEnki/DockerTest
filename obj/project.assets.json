@@ -8,17 +8,35 @@
     "net8.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\ZA5771\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\ZA5771\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\xu870\\.nuget\\packages\\": {}
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
+>>>>>>> 93e7c95a4135bf32e08dc704a5bc04f7806bf1f3
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ZA5771\\Desktop\\DockerTest\\DockerTest\\DockerTest.csproj",
       "projectName": "DockerTest",
       "projectPath": "C:\\Users\\ZA5771\\Desktop\\DockerTest\\DockerTest\\DockerTest.csproj",
       "packagesPath": "C:\\Users\\ZA5771\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ZA5771\\Desktop\\DockerTest\\DockerTest\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\ZA5771\\Desktop\\test\\test\\test.csproj",
+      "projectName": "test",
+      "projectPath": "C:\\Users\\ZA5771\\Desktop\\test\\test\\test.csproj",
+      "packagesPath": "C:\\Users\\ZA5771\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ZA5771\\Desktop\\test\\test\\obj\\",
+>>>>>>> 93e7c95a4135bf32e08dc704a5bc04f7806bf1f3
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +44,19 @@
       "configFilePaths": [
         "C:\\Users\\ZA5771\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+<<<<<<< HEAD
+=======
+=======
+      "projectUniqueName": "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\test.csproj",
+      "projectName": "test",
+      "projectPath": "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\test.csproj",
+      "packagesPath": "C:\\Users\\xu870\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\xu870\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
+>>>>>>> 93e7c95a4135bf32e08dc704a5bc04f7806bf1f3
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,8 +82,17 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
+<<<<<<< HEAD
       },
       "SdkAnalysisLevel": "9.0.100"
+=======
+<<<<<<< HEAD
+      },
+      "SdkAnalysisLevel": "9.0.100"
+=======
+      }
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
+>>>>>>> 93e7c95a4135bf32e08dc704a5bc04f7806bf1f3
     },
     "frameworks": {
       "net8.0": {
@@ -76,7 +116,15 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+=======
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
+>>>>>>> 93e7c95a4135bf32e08dc704a5bc04f7806bf1f3
       }
     }
   }

@@ -11,12 +11,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DockerTest")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ef22bcbeeaa0f89baa3564d4481047d3b7ed6c6")]
-[assembly: System.Reflection.AssemblyProductAttribute("DockerTest")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DockerTest")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e4bbf2ddedb0b05d5dd4d0c0548e1a12359f441")]
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
+[assembly: System.Reflection.AssemblyProductAttribute("test")]
+[assembly: System.Reflection.AssemblyTitleAttribute("test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。

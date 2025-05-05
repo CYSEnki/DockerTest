@@ -1,8 +1,15 @@
 using System.Diagnostics;
+<<<<<<< HEAD
 using DockerTest.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DockerTest.Controllers
+=======
+using Microsoft.AspNetCore.Mvc;
+using test.Models;
+
+namespace test.Controllers
+>>>>>>> 93e7c95a4135bf32e08dc704a5bc04f7806bf1f3
 {
     public class HomeController : Controller
     {
