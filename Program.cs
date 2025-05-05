@@ -4,9 +4,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+builder.WebHost.UseUrls($"http://*:{port}");
 
 var app = builder.Build();
+app.MapGet("/", () => "Hello from .NET 8 on Cloud Run!");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
