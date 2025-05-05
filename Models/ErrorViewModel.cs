@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 namespace DockerTest.Models
-=======
-namespace test.Models
->>>>>>> 93e7c95a4135bf32e08dc704a5bc04f7806bf1f3
 {
     public class ErrorViewModel
     {
