@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\ZA5771\\Desktop\\test\\test\\test.csproj": {}
   },
   "projects": {
@@ -19,6 +20,22 @@
         "configFilePaths": [
           "C:\\Users\\ZA5771\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+    "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\test.csproj",
+        "projectName": "test",
+        "projectPath": "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\test.csproj",
+        "packagesPath": "C:\\Users\\xu870\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xu870\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,8 +61,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+<<<<<<< HEAD
         },
         "SdkAnalysisLevel": "9.0.100"
+=======
+        }
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
       },
       "frameworks": {
         "net8.0": {
@@ -69,7 +90,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
         }
       }
     }

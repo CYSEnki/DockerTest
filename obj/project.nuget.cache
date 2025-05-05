@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "n2qpEIfuoRo=",
   "success": true,
   "projectFilePath": "C:\\Users\\ZA5771\\Desktop\\test\\test\\test.csproj",
+=======
+  "dgSpecHash": "+mMJ3QAHpJI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xu870\\OneDrive\\桌面\\DockerTest\\test\\test.csproj",
+>>>>>>> 5363515d8d7fb1b2492149cbe41c8b6eedaf7cef
   "expectedPackageFiles": [],
   "logs": []
 }
