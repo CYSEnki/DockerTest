@@ -1,16 +1,15 @@
 # 建立執行環境
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
+EXPOSE 8080
 
 # 建立建置環境
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# 複製 csproj 並還原依賴
 COPY *.csproj .
 RUN dotnet restore
 
-# 複製其他檔案並建置
 COPY . .
 RUN dotnet publish -c Release -o /app/publish
 
